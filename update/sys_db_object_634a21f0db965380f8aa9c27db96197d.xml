@@ -18,16 +18,16 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 10:26:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>634a21f0db965380f8aa9c27db96197d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Notification Log</sys_name>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sys_db_object_634a21f0db965380f8aa9c27db96197d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

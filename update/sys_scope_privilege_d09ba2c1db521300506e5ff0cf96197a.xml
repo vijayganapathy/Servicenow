@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-05-24 09:49:47</sys_created_on>
+        <sys_id>d09ba2c1db521300506e5ff0cf96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TemplatePrinter.print</sys_name>
+        <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
+        <sys_update_name>sys_scope_privilege_d09ba2c1db521300506e5ff0cf96197a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-24 09:49:47</sys_updated_on>
+        <target_name>TemplatePrinter.print</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
-        <description/>
-        <event_name>x_eptds_kasprev.IncidentEvent </event_name>
+        <description>This is for incident event.</description>
+        <event_name>x_eptds_kasprev.IncidentEvent</event_name>
         <fired_by/>
         <queue/>
-        <suffix>IncidentEvent </suffix>
+        <suffix>IncidentEvent</suffix>
         <sys_class_name>sysevent_register</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 11:12:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>edc47538db965380f8aa9c27db96195d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_eptds_kasprev.IncidentEvent </sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_eptds_kasprev.IncidentEvent</sys_name>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sysevent_register_edc47538db965380f8aa9c27db96195d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-23 11:12:43</sys_updated_on>
+        <sys_updated_on>2018-05-24 09:50:10</sys_updated_on>
         <table/>
     </sysevent_register>
 </record_update>

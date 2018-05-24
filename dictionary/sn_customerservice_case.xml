@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" audit="true" extends="task" label="Case" max_length="40" name="sn_customerservice_case" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="Case" max_length="40" name="sn_customerservice_case" sizeclass="28" type="collection">
         <element display="true" label="KASPREV Alert" max_length="100" name="x_eptds_kasprev_kasprev_alert" type="color"/>
     </element>
 </database>
