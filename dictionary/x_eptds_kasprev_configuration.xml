@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Configuration" max_length="40" name="x_eptds_kasprev_configuration" type="collection">
+        <element label="Email Address 1" mandatory="true" max_length="100" name="email_address_1" type="email"/>
+        <element label="Email Address 2" max_length="100" name="email_address_2" type="email"/>
+        <element label="Email Address 3" max_length="100" name="email_address_3" type="email"/>
+        <element label="Keywords" mandatory="true" max_length="1000" name="keywords" type="string"/>
+        <element choice="1" display="true" label="Priority" mandatory="true" max_length="10" name="priority" type="integer">
+            <choice>
+                <element label="Priority01" value="01"/>
+                <element label="Priority02" value="02"/>
+                <element label="Priority03" value="03"/>
+                <element label="Priority04" value="04"/>
+                <element label="Priority05" value="05"/>
+                <element label="Priority06" value="06"/>
+                <element label="Priority07" value="07"/>
+                <element label="Priority08" value="08"/>
+                <element label="Priority09" value="09"/>
+                <element label="Priority10" value="10"/>
+            </choice>
+        </element>
+    </element>
+</database>

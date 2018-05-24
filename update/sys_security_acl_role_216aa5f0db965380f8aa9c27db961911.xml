@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-23 10:26:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>216aa5f0db965380f8aa9c27db961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_eptds_kasprev_notification_log.x_eptds_kasprev.user</sys_name>
+        <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
+        <sys_security_acl display_value="x_eptds_kasprev_notification_log">116aa5f0db965380f8aa9c27db96190d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_216aa5f0db965380f8aa9c27db961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-23 10:26:34</sys_updated_on>
+        <sys_user_role display_value="x_eptds_kasprev.user" name="x_eptds_kasprev.user">ee3f597cdb565380f8aa9c27db9619c0</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

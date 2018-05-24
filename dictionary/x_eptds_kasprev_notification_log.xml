@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Notification Log" max_length="40" name="x_eptds_kasprev_notification_log" type="collection">
+        <element label="Caller Id" mandatory="true" max_length="50" name="caller_id" type="email"/>
+        <element label="Email Addresses" mandatory="true" max_length="150" name="email_addresses" type="string"/>
+        <element label="Incident Number" mandatory="true" max_length="50" name="incident_number" type="string"/>
+        <element label="Keyword" mandatory="true" max_length="40" name="keyword" type="string"/>
+        <element label="Priority" mandatory="true" max_length="10" name="priority" type="integer"/>
+        <element label="Short Description" mandatory="true" max_length="200" name="short_description" type="string"/>
+    </element>
+</database>

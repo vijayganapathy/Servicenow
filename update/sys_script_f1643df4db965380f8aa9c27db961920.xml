@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_eptds_kasprev_configuration</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Priority Validation (Configuration)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+var keywords = current.getValue('keywords');
+var email_address1 = current.getValue('email_address_1');
+var email_address2 = current.getValue('email_address_2');
+var email_address3 = current.getValue('email_address_3');
+var priority = current.getValue('priority');
+var priorityInTable = "";
+var Sys_id;
+var emailFlag1 = false;
+var emailFlag2 = false;
+var emailFlag3 = false;
+
+var priorityGR = new GlideRecord('x_eptds_kasprev_configuration');
+priorityGR.addQuery('priority', '=', priority);
+priorityGR.query();
+
+if (email_address1 == email_address2)
+	emailFlag1 = true;
+if (email_address1 == email_address3)
+	emailFlag2 = true;
+if (email_address2 != null && email_address2 == email_address3)
+	emailFlag3 = true;
+if (emailFlag1) {
+	current.email_address2.setError("Same Email Address can't be provided.");	
+	current.setAbortAction(true);
+} else if (emailFlag2) {
+	current.email_address3.setError("Same Email Address can't be provided.");
+	current.setAbortAction(true);
+} else if (emailFlag3) {
+	current.email_address3.setError("Same Email Address can't be provided.");
+	current.setAbortAction(true);
+} else {
+	if (current.isNewRecord()) {
+
+		if (priorityGR.next()) {
+			current.priority.setError("Selected priority already contain records, you can not insert new one. Please update the existing one.");
+			current.setAbortAction(true);
+		}
+	} else {
+		while (priorityGR.next()) {
+			Sys_id = priorityGR.sys_id;
+		}
+
+		if (Sys_id != current.sys_id) {
+			
+			var priorityGR1 = new GlideRecord('x_eptds_kasprev_configuration');
+			priorityGR1.addQuery('priority', '=', priority);
+			priorityGR1.query();
+			var flag = priorityGR1.next();
+
+			if (flag) {
+				current.priority.setError("Selected priority already contain records, you can not insert new one. Please update the existing one.");
+				current.setAbortAction(true);
+			}
+		}
+	}
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-23 11:11:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1643df4db965380f8aa9c27db961920</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Priority Validation (Configuration)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
+        <sys_update_name>sys_script_f1643df4db965380f8aa9c27db961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-23 13:29:35</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1643df4db965380f8aa9c27db961920"/>
+</record_update>

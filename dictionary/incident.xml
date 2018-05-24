@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,live_feed=true,hasWorkflow=true,text_index_translations" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="499" text_index="true" type="collection">
+        <element display="true" label="KASPREV Alert" max_length="100" name="x_eptds_kasprev_kasprev_alert" type="color"/>
+    </element>
+</database>
