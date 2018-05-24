@@ -4,6 +4,7 @@
         <element label="Email Address 1" mandatory="true" max_length="100" name="email_address_1" type="email"/>
         <element label="Email Address 2" max_length="100" name="email_address_2" type="email"/>
         <element label="Email Address 3" max_length="100" name="email_address_3" type="email"/>
+        <element label="KASPREV Alert" max_length="50" name="kasprev_alert" type="string"/>
         <element label="Keywords" mandatory="true" max_length="1000" name="keywords" type="string"/>
         <element choice="1" display="true" label="Priority" mandatory="true" max_length="10" name="priority" type="integer">
             <choice>
