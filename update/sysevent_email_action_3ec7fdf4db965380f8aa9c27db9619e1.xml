@@ -6,8 +6,8 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category/>
-        <collection>incident</collection>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <collection>sysevent_register</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3ec7fdf4db965380f8aa9c27db9619e1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Case Email Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
@@ -64,9 +64,9 @@
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sysevent_email_action_3ec7fdf4db965380f8aa9c27db9619e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-23 11:31:29</sys_updated_on>
+        <sys_updated_on>2018-05-24 13:03:58</sys_updated_on>
         <sys_version>2</sys_version>
-        <template/>
+        <template display_value="CaseEmailTemplate">70871b49db521300506e5ff0cf96195b</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

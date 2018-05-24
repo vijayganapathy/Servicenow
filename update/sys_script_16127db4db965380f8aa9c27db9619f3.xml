@@ -75,12 +75,12 @@
 				emailAddress2 = notificationKeywordRecord.getValue('email_address_2');
 				emailAddress3 = notificationKeywordRecord.getValue('email_address_3');
 
-				if (emailAddress2 != null) {
-					emailAddresses = emailAddress1 + ", " + emailAddress2;
+				if (emailAddress2 != null && emailAddress3 != null ) {
+					emailAddresses = emailAddress1 + ", " + emailAddress2 + ", " + emailAddress3;				
+				} else if (emailAddress2 != null) {
+					emailAddresses = emailAddress1 + ", " + emailAddress2;					
 				} else if (emailAddress3 != null) {
 					emailAddresses = emailAddress1 + ", " + emailAddress3;
-				} else if (emailAddress2 != null && emailAddress3 != null) {
-					emailAddresses = emailAddress1 + ", " + emailAddress2 + ", " + emailAddress3;
 				} else {
 					emailAddresses = emailAddress1;
 				}
@@ -128,7 +128,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>16127db4db965380f8aa9c27db9619f3</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Incident Notification Filter</sys_name>
         <sys_overrides/>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
@@ -136,7 +136,7 @@
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sys_script_16127db4db965380f8aa9c27db9619f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-24 10:46:17</sys_updated_on>
+        <sys_updated_on>2018-05-24 12:48:42</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

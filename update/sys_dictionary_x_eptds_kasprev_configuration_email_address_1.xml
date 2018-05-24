@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 10:22:07</sys_created_on>
-        <sys_id>b0446ac9db121300506e5ff0cf9619b6</sys_id>
+        <sys_id>bd8e4341db521300506e5ff0cf96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>false</sys_name>
+        <sys_name>Email Address 1</sys_name>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sys_dictionary_x_eptds_kasprev_configuration_email_address_1</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-05-24 09:17:55</sys_updated_on>
+        <sys_updated_on>2018-05-24 12:22:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
