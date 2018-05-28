@@ -32,7 +32,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 	//Query the notification_keywords table	
-gs.addInfoMessage('inside');
+
 	// Email addresses
 	var emailAddress1;
 	var emailAddress2;
@@ -57,7 +57,7 @@ gs.addInfoMessage('inside');
 		description = current.getValue('description').replace(/[^\w\s]/gi, '').toLowerCase();
 		combinedDescription = combinedDescription + " " + description;
 	}
-gs.addInfoMessage('after getting values');
+
 	var notificationKeywordRecord = new GlideRecord('x_eptds_kasprev_configuration');
 	notificationKeywordRecord.orderBy('priority');
 	notificationKeywordRecord.query();
@@ -94,7 +94,7 @@ gs.addInfoMessage('after getting values');
 		if (containsKeyword)
 			break;
 	}
-gs.addInfoMessage('containsKeywords'+containsKeyword);
+
 	if (containsKeyword) {
 		
 			var notificationLogs = new GlideRecord('x_eptds_kasprev_notification_log');
@@ -128,18 +128,20 @@ gs.addInfoMessage('containsKeywords'+containsKeyword);
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 11:06:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9bc275b4db965380f8aa9c27db961978</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Case Notification Filter</sys_name>
         <sys_overrides/>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sys_script_9bc275b4db965380f8aa9c27db961978</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-24 12:54:12</sys_updated_on>
+        <sys_updated_on>2018-05-24 13:24:10</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

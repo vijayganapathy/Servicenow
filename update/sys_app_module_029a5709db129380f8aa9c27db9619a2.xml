@@ -10,37 +10,37 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>Configurations</mobile_title>
+        <mobile_title>Contact Support</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_eptds_kasprev_configuration</name>
+        <name/>
         <order/>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>https://www.sensiple.com</query>
         <report/>
         <roles>x_eptds_kasprev.user</roles>
         <survey/>
-        <survey_overwrite>false</survey_overwrite>
+        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-23 09:38:23</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_created_on>2018-05-24 13:16:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>af5fdd3cdb565380f8aa9c27db96191f</sys_id>
+        <sys_id>029a5709db129380f8aa9c27db9619a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Configurations</sys_name>
+        <sys_name>Contact Support</sys_name>
         <sys_overrides/>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
-        <sys_update_name>sys_app_module_af5fdd3cdb565380f8aa9c27db96191f</sys_update_name>
+        <sys_update_name>sys_app_module_029a5709db129380f8aa9c27db9619a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-23 09:38:23</sys_updated_on>
+        <sys_updated_on>2018-05-24 13:16:44</sys_updated_on>
         <timeline_page/>
-        <title>Configurations</title>
+        <title>Contact Support</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -61,6 +61,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 11:08:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d69339f4db965380f8aa9c27db961987</sys_id>
@@ -69,6 +70,7 @@
         <sys_overrides/>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sys_script_d69339f4db965380f8aa9c27db961987</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

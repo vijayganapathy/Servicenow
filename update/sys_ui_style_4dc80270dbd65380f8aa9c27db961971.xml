@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_ui_style">
     <sys_ui_style action="INSERT_OR_UPDATE">
-        <alt/>
         <element>x_eptds_kasprev_kasprev_alert</element>
         <name>sn_customerservice_case</name>
         <style>background-color:Turquoise;</style>
         <sys_class_name>sys_ui_style</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 12:39:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4dc80270dbd65380f8aa9c27db961971</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sn_customerservice_case</sys_name>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sys_ui_style_4dc80270dbd65380f8aa9c27db961971</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-05-23 12:39:39</sys_updated_on>
         <value>5</value>
     </sys_ui_style>
-    <sys_translated_text action="delete_multiple" query="documentkey=4dc80270dbd65380f8aa9c27db961971"/>
 </record_update>

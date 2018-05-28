@@ -17,11 +17,13 @@
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 13:03:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>70871b49db521300506e5ff0cf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CaseEmailTemplate</sys_name>
         <sys_package display_value="Kasprev" source="x_eptds_kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Kasprev">9a3fd53cdb565380f8aa9c27db96193b</sys_scope>
         <sys_update_name>sysevent_email_template_70871b49db521300506e5ff0cf96195b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
